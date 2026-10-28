@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Мой сайт о художниках</title>
+    <title>Мой сайт об искусстве</title>
     <style>
-        body { font-family: Arial; background-color: #f0f0f0; text-align: center; padding: 20px; }
+        body { font-family: Arial; text-align: center; padding: 20px; background-color: #f9f9f9; }
         h1 { color: #333; }
-        a { display: block; margin: 10px; font-size: 20px; color: blue; }
+        .greeting { font-size: 22px; color: #d35400; font-weight: bold; margin-bottom: 20px; }
+        .gallery-img { max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-bottom: 30px; }
+        a { display: block; margin: 10px; font-size: 22px; color: #2980b9; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <h1>Известные художники</h1>
     
-    <p style="font-size: 22px; color: #e67e22; font-weight: bold;">
-        Здравствуйте! Я Абидуева Сойжина, и моё хобби — искусство.
-    </p>
+    <h1>Мир искусства</h1>
+    <p class="greeting">Здравствуйте! Я Абидуева Сойжина, и моё хобби — искусство.</p>
     
-    <p>Выбери художника, чтобы узнать о нем больше:</p>
+    
+    <img src="art.jpg" alt="Искусство" class="gallery-img">
+    
+    <hr>
+    
+    <p>Выберите художника:</p>
     
     <a href="van_gogh.html">Винсент Ван Гог</a>
     <a href="monet.html">Клод Моне</a>
